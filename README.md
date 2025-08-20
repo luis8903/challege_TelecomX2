@@ -32,3 +32,39 @@ Crear una conclusión estratégica señalando los principales factores que influ
 ✅ Construcción y evaluación de modelos predictivos
 ✅ Interpretación de resultados y entrega de insights
 ✅ Comunicación técnica con enfoque estratégico
+
+Librerias Utilizadas
+
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import warnings
+import matplotlib.pyplot as plt
+
+from sklearn.compose import make_column_transformer
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.dummy import DummyClassifier
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import ConfusionMatrixDisplay
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+from sklearn.inspection import permutation_importance
+
+
+from imblearn.over_sampling import SMOTE
+from imblearn.under_sampling import RandomUnderSampler
+
+Para ejecutar el proyecto, inicialmente deben de tener registrado un correo de gmail e ingresar a google colab.
+
+Posteriormente descargar el archivo challengeTelecom2.ipynb que se encuentra en la ruta
+
+Conectarse al ambiente de google colab y ejecutar proceso.
+
+
+

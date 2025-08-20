@@ -62,7 +62,7 @@ from imblearn.under_sampling import RandomUnderSampler
 
 Para ejecutar el proyecto, inicialmente deben de tener registrado un correo de gmail e ingresar a google colab.
 
-Posteriormente descargar el archivo challengeTelecom2.ipynb que se encuentra en la ruta
+Posteriormente descargar el archivo challengeTelecom2.ipynb que se encuentra en la ruta https://github.com/luis8903/challege_TelecomX2/blob/main/challengeTelecom2.ipynb
 
 Conectarse al ambiente de google colab y ejecutar proceso.
 
